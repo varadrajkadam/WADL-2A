@@ -1,0 +1,191 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+/* Heading-style */
+
+.big-heading {
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Montserrar-Bold";
+}
+
+
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 4% 10% 25%;
+    
+}
+#title {
+    background-color: red ;
+    color: #fff;
+    text-align: left;
+ }
+ .varad{
+    background-color: green;
+ }
+/* Navigation Bar */
+.navbar-brand{
+    margin-left: 2%;
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* Buttons */
+.download-btn{
+    margin: 5% 3% 5% 0%;
+}
+/* Title Image */
+
+.title-image{
+    width: 55%;
+  
+    transform: rotate(20deg);
+    
+    position: absolute;
+}
+
+/* Features Section */
+
+.feature-heading {
+    font-size: 1.5rem;
+}
+#features{
+    padding: 7% 15%;
+    background-color: green;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    
+    padding: 5%;
+} 
+.add_color{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.add_color:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testomonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials{
+    
+    background-color: #ff4c68;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;   
+}
+.testimonial_img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+.carousel-item{
+    height: 500px;
+}
+/* PRICING */
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#pricing{
+    padding: 100px;
+    
+}
+.pice-col{
+    padding: 3% 2%;
+}
+
+
+.red{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: red;
+    position: absolute;
+   
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: yellow;
+    
+}
+.blue{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: blue;
+    
+}
+@media (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    
+    padding: 7% 20%;  
+    color: #fff;
+    
+}
+
+
+#footer{
+    color: #fff;
+    padding: 7% 15%;
+   
+}
+#payment{
+    text-align: left;
+    padding-left: 5%;
+}
+.form-group{
+    padding: 1% 0%;
+}
+.add{
+    padding: 1% 0%;
+    /* margin: 1% 2%/; */
+}
